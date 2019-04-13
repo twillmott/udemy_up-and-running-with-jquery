@@ -13,3 +13,7 @@ $("#target").on("click", function(){
   $("#box").fadeToggle(1000);
 
 });
+
+$("#firstBtn").on("click", function() {
+  $("p").toggle();
+});
